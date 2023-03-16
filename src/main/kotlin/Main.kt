@@ -27,14 +27,15 @@ fun ageRobot(age:Int){
         println("cocacola")
 
 }
-fun name(name:Array<String>):String{
+fun name(name:Array<String>):Int{
     var adding = 0
     for (na in name) {
-        if (na.length > 5) {
+          if (na.length > 5) {
             adding++
         }
-        return na
+
         }
+    return adding
 
 }
 
